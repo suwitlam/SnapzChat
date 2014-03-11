@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD1E801C18CEEC1E00244E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E801B18CEEC1E00244E9F /* Foundation.framework */; };
+		FD1E802118CEEC1E00244E9F /* SnapzChatLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD1E802018CEEC1E00244E9F /* SnapzChatLib.h */; };
+		FD1E802318CEEC1E00244E9F /* SnapzChatLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E802218CEEC1E00244E9F /* SnapzChatLib.m */; };
+		FD1E802A18CEEC1E00244E9F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E802918CEEC1E00244E9F /* XCTest.framework */; };
+		FD1E802B18CEEC1E00244E9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E801B18CEEC1E00244E9F /* Foundation.framework */; };
+		FD1E802D18CEEC1E00244E9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E802C18CEEC1E00244E9F /* UIKit.framework */; };
+		FD1E803018CEEC1E00244E9F /* libSnapzChatLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1E801818CEEC1E00244E9F /* libSnapzChatLib.a */; };
+		FD1E803618CEEC1E00244E9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD1E803418CEEC1E00244E9F /* InfoPlist.strings */; };
+		FD1E803818CEEC1E00244E9F /* SnapzChatLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1E803718CEEC1E00244E9F /* SnapzChatLibTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD1E802E18CEEC1E00244E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD1E801018CEEC1E00244E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD1E801718CEEC1E00244E9F;
+			remoteInfo = SnapzChatLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD1E801618CEEC1E00244E9F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FD1E802118CEEC1E00244E9F /* SnapzChatLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD1E801818CEEC1E00244E9F /* libSnapzChatLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSnapzChatLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1E801B18CEEC1E00244E9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD1E801F18CEEC1E00244E9F /* SnapzChatLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnapzChatLib-Prefix.pch"; sourceTree = "<group>"; };
+		FD1E802018CEEC1E00244E9F /* SnapzChatLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapzChatLib.h; sourceTree = "<group>"; };
+		FD1E802218CEEC1E00244E9F /* SnapzChatLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapzChatLib.m; sourceTree = "<group>"; };
+		FD1E802818CEEC1E00244E9F /* SnapzChatLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapzChatLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1E802918CEEC1E00244E9F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FD1E802C18CEEC1E00244E9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FD1E803318CEEC1E00244E9F /* SnapzChatLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnapzChatLibTests-Info.plist"; sourceTree = "<group>"; };
+		FD1E803518CEEC1E00244E9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD1E803718CEEC1E00244E9F /* SnapzChatLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapzChatLibTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD1E801518CEEC1E00244E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1E801C18CEEC1E00244E9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1E802518CEEC1E00244E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1E802A18CEEC1E00244E9F /* XCTest.framework in Frameworks */,
+				FD1E802D18CEEC1E00244E9F /* UIKit.framework in Frameworks */,
+				FD1E803018CEEC1E00244E9F /* libSnapzChatLib.a in Frameworks */,
+				FD1E802B18CEEC1E00244E9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD1E800F18CEEC1E00244E9F = {
+			isa = PBXGroup;
+			children = (
+				FD1E801D18CEEC1E00244E9F /* SnapzChatLib */,
+				FD1E803118CEEC1E00244E9F /* SnapzChatLibTests */,
+				FD1E801A18CEEC1E00244E9F /* Frameworks */,
+				FD1E801918CEEC1E00244E9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD1E801918CEEC1E00244E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E801818CEEC1E00244E9F /* libSnapzChatLib.a */,
+				FD1E802818CEEC1E00244E9F /* SnapzChatLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD1E801A18CEEC1E00244E9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E801B18CEEC1E00244E9F /* Foundation.framework */,
+				FD1E802918CEEC1E00244E9F /* XCTest.framework */,
+				FD1E802C18CEEC1E00244E9F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD1E801D18CEEC1E00244E9F /* SnapzChatLib */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E802018CEEC1E00244E9F /* SnapzChatLib.h */,
+				FD1E802218CEEC1E00244E9F /* SnapzChatLib.m */,
+				FD1E801E18CEEC1E00244E9F /* Supporting Files */,
+			);
+			path = SnapzChatLib;
+			sourceTree = "<group>";
+		};
+		FD1E801E18CEEC1E00244E9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E801F18CEEC1E00244E9F /* SnapzChatLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD1E803118CEEC1E00244E9F /* SnapzChatLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E803718CEEC1E00244E9F /* SnapzChatLibTests.m */,
+				FD1E803218CEEC1E00244E9F /* Supporting Files */,
+			);
+			path = SnapzChatLibTests;
+			sourceTree = "<group>";
+		};
+		FD1E803218CEEC1E00244E9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD1E803318CEEC1E00244E9F /* SnapzChatLibTests-Info.plist */,
+				FD1E803418CEEC1E00244E9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD1E801718CEEC1E00244E9F /* SnapzChatLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1E803B18CEEC1E00244E9F /* Build configuration list for PBXNativeTarget "SnapzChatLib" */;
+			buildPhases = (
+				FD1E801418CEEC1E00244E9F /* Sources */,
+				FD1E801518CEEC1E00244E9F /* Frameworks */,
+				FD1E801618CEEC1E00244E9F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapzChatLib;
+			productName = SnapzChatLib;
+			productReference = FD1E801818CEEC1E00244E9F /* libSnapzChatLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD1E802718CEEC1E00244E9F /* SnapzChatLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD1E803E18CEEC1E00244E9F /* Build configuration list for PBXNativeTarget "SnapzChatLibTests" */;
+			buildPhases = (
+				FD1E802418CEEC1E00244E9F /* Sources */,
+				FD1E802518CEEC1E00244E9F /* Frameworks */,
+				FD1E802618CEEC1E00244E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD1E802F18CEEC1E00244E9F /* PBXTargetDependency */,
+			);
+			name = SnapzChatLibTests;
+			productName = SnapzChatLibTests;
+			productReference = FD1E802818CEEC1E00244E9F /* SnapzChatLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD1E801018CEEC1E00244E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Suwit Arnmanee";
+			};
+			buildConfigurationList = FD1E801318CEEC1E00244E9F /* Build configuration list for PBXProject "SnapzChatLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD1E800F18CEEC1E00244E9F;
+			productRefGroup = FD1E801918CEEC1E00244E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD1E801718CEEC1E00244E9F /* SnapzChatLib */,
+				FD1E802718CEEC1E00244E9F /* SnapzChatLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD1E802618CEEC1E00244E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1E803618CEEC1E00244E9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD1E801418CEEC1E00244E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1E802318CEEC1E00244E9F /* SnapzChatLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1E802418CEEC1E00244E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1E803818CEEC1E00244E9F /* SnapzChatLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD1E802F18CEEC1E00244E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD1E801718CEEC1E00244E9F /* SnapzChatLib */;
+			targetProxy = FD1E802E18CEEC1E00244E9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD1E803418CEEC1E00244E9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD1E803518CEEC1E00244E9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD1E803918CEEC1E00244E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD1E803A18CEEC1E00244E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD1E803C18CEEC1E00244E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SnapzChatLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapzChatLib/SnapzChatLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD1E803D18CEEC1E00244E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SnapzChatLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapzChatLib/SnapzChatLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FD1E803F18CEEC1E00244E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapzChatLib/SnapzChatLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnapzChatLibTests/SnapzChatLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FD1E804018CEEC1E00244E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnapzChatLib/SnapzChatLib-Prefix.pch";
+				INFOPLIST_FILE = "SnapzChatLibTests/SnapzChatLibTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD1E801318CEEC1E00244E9F /* Build configuration list for PBXProject "SnapzChatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1E803918CEEC1E00244E9F /* Debug */,
+				FD1E803A18CEEC1E00244E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD1E803B18CEEC1E00244E9F /* Build configuration list for PBXNativeTarget "SnapzChatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1E803C18CEEC1E00244E9F /* Debug */,
+				FD1E803D18CEEC1E00244E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD1E803E18CEEC1E00244E9F /* Build configuration list for PBXNativeTarget "SnapzChatLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD1E803F18CEEC1E00244E9F /* Debug */,
+				FD1E804018CEEC1E00244E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD1E801018CEEC1E00244E9F /* Project object */;
+}
